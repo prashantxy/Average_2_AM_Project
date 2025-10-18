@@ -1,13 +1,10 @@
 import express from "express";
 import type { Request, Response } from "express";
 import multer from "multer";
-import pdfParse from "pdf-parse"; // Default import with official types
+import pdfParse from "pdf-parse"; 
 import dotenv from "dotenv";
 import cors from "cors";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-
-// Debug the pdfParse export
-console.log("pdfParse:", pdfParse);
 
 const pdfParseFn =  pdfParse; 
 
